@@ -13,8 +13,46 @@
             "type": "image/png"
         }
     ],
-    "start_url": "/index.html",
+    "start_url": "/",
     "theme_color": "#000000",
     "background_color": "#000000",
-    "display": "standalone"
+    "display": "fullscreen",
+    "shortcuts": [
+        {
+            "name": "Line-up",
+            "short_name": "Line-up",
+            "description": "Line-up",
+            "url": "/line-up",
+            "icons": [
+                {
+                    "src": "/icons/lineup-192x192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "Clashfinder",
+            "short_name": "Clashfinder",
+            "description": "Clashfinder",
+            "url": "/clashfinder",
+            "icons": [
+                {
+                    "src": "/icons/clash-192x192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "Official Site",
+            "short_name": "Official Site",
+            "description": "Official Site",
+            "url": "/festival",
+            "icons": [
+                {
+                    "src": "/icons/info-192x192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ]
 }
