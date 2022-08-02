@@ -1,0 +1,1 @@
+Because the noise should be on stage, not in our phones.
