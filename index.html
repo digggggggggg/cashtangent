@@ -17,4 +17,28 @@
 		</style>
 	</head>
 </html>
-<iframe seamless src="https://widget.weezevent.com/pay/340821/widgets/5a42fd8a-b775-4cea-82ee-384becfa736f/"></iframe>
+<body>
+
+	<iframe seamless src="https://widget.weezevent.com/pay/340821/widgets/5a42fd8a-b775-4cea-82ee-384becfa736f/"></iframe>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('service-worker.js')
+                                        .then(function(registration) {
+                                                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+
+                                                registration.addEventListener('updatefound', function() {
+                                                    let installingWorker = registration.installing;
+
+                                                    console.log('A new service worker is being installed:', installingWorker);
+                                                });
+                                        }, function(err) {
+    
+                                                console.log('ServiceWorker registration failed: ', err);
+                                            });
+
+            });
+        }
+    </script>
+</body>
