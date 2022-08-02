@@ -1,0 +1,20 @@
+{
+  "name": "cashtangent",
+  "version": "1.0.0",
+  "description": "Because the noise should be on stage, not in our phones.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "yolo": "netlify deploy --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digggggggggg/cashtangent.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digggggggggg/cashtangent/issues"
+  },
+  "homepage": "https://github.com/digggggggggg/cashtangent#readme"
+}
